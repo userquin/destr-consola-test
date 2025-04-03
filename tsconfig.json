@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "moduleDetection": "force",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "target": "ES2018",
+    "skipLibCheck": false,
+    "skipDefaultLibCheck": false,
+    "traceResolution": true,
+    "esModuleInterop": true
+  },
+  "include": ["./src"]
+}
