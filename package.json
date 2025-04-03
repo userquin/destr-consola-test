@@ -4,7 +4,10 @@
   "type": "commonjs",
   "scripts": {
     "dev": "tsx src/index.cts",
-    "typecheck": "tsc --noEmit > trace.txt"
+    "build": "tsc && node ./src/index.cjs",
+    "build:node16": "tsc -p tsconfig.node16.json && node ./src/index.cjs",
+    "typecheck": "tsc --noEmit > trace.txt",
+    "typecheck:node16": "tsc --noEmit -p tsconfig.node16.json > trace.txt"
   },
   "author": "",
   "license": "ISC",
