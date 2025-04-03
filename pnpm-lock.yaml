@@ -177,7 +177,7 @@ packages:
     resolution: {integrity: sha512-Kmpl+z84ILoG+3T/zQFyAJsU6EPTmOCj8/2+83fSN6djd6I4o7uOuGIH6vq3PrjY5BGitSbFuMN18j3iknubbA==}
 
   destr@file:destr-2.0.5.tgz:
-    resolution: {integrity: sha512-qMjxnJGTYBJyOqK9zHheL/XzB9a7HGYOmbXARm+PrIS0s4mT9wqtjV7rcbtu+mrnRFGeLmY1j7UdFMreAX0yvQ==, tarball: file:destr-2.0.5.tgz}
+    resolution: {integrity: sha512-N+oQO+jqXzLqsnejkmTl08feFShv4j/UcOlloqb0UsVlqLIb3Qz7tFuC1dNIZe07sy0JLeWUPK+HlgNaVHoklA==, tarball: file:destr-2.0.5.tgz}
     version: 2.0.5
 
   esbuild@0.25.2:

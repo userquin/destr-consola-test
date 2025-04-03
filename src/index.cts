@@ -1,6 +1,6 @@
 import type { Options } from 'destr'
-// import destr, { type Options } from 'destr'
 const destr = require('destr')
+// import destr, { type Options } from 'destr'
 
 const options = {
     strict: true
