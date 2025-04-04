@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+patchedDependencies:
+  destr@2.0.4:
+    hash: 6ac5818e20126c3a0d9ff33251801bd02cb395bc782a7310531cd0756aaacdef
+    path: patches/destr@2.0.4.patch
+
 importers:
 
   .:
@@ -12,8 +17,8 @@ importers:
         specifier: ^22.14.0
         version: 22.14.0
       destr:
-        specifier: file:destr-2.0.5.tgz
-        version: file:destr-2.0.5.tgz
+        specifier: 2.0.4
+        version: 2.0.4(patch_hash=6ac5818e20126c3a0d9ff33251801bd02cb395bc782a7310531cd0756aaacdef)
       tsx:
         specifier: ^4.19.3
         version: 4.19.3
@@ -176,9 +181,8 @@ packages:
   '@types/node@22.14.0':
     resolution: {integrity: sha512-Kmpl+z84ILoG+3T/zQFyAJsU6EPTmOCj8/2+83fSN6djd6I4o7uOuGIH6vq3PrjY5BGitSbFuMN18j3iknubbA==}
 
-  destr@file:destr-2.0.5.tgz:
-    resolution: {integrity: sha512-N+oQO+jqXzLqsnejkmTl08feFShv4j/UcOlloqb0UsVlqLIb3Qz7tFuC1dNIZe07sy0JLeWUPK+HlgNaVHoklA==, tarball: file:destr-2.0.5.tgz}
-    version: 2.0.5
+  destr@2.0.4:
+    resolution: {integrity: sha512-FCAorltMy7QwX0QU38jOkhrv20LBpsHA8ogzvMhhPHCCKVCaN6GxrB0GGaWEWBUYI4eEjjfJ95RdP6dk9IdMQA==}
 
   esbuild@0.25.2:
     resolution: {integrity: sha512-16854zccKPnC+toMywC+uKNeYSv+/eXkevRAfwRD/G9Cleq66m8XFIrigkbvauLLlCfDL45Q2cWegSg53gGBnQ==}
@@ -290,7 +294,7 @@ snapshots:
     dependencies:
       undici-types: 6.21.0
 
-  destr@file:destr-2.0.5.tgz: {}
+  destr@2.0.4(patch_hash=6ac5818e20126c3a0d9ff33251801bd02cb395bc782a7310531cd0756aaacdef): {}
 
   esbuild@0.25.2:
     optionalDependencies:
